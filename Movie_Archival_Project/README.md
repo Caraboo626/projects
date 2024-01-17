@@ -1,3 +1,3 @@
 # projects
 Documentation of various projects. 
-# This is a change.
+# These are projects that have been created and documented. They will be primarily in Java and C++

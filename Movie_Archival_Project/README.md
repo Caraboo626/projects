@@ -1,3 +1,3 @@
 # projects
 Documentation of various projects. 
-# These are projects that have been created and documented. They will be primarily in Java and C++
+# This projects archives projects based on the title and actor information of the movie. 

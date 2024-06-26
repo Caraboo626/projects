@@ -1,0 +1,132 @@
+body.modalOn {
+    overflow-y: hidden;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(255,255,255,0.5);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #3D3D3D;
+    padding: 14px 28px;
+    border-radius: 12px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 37.5px;
+    right: 25px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    border-radius: 50px;
+    margin: 0;
+}
+
+.modalText {
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: "Manrope", sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    color: white;
+}
+
+.modalButton {
+    color: white;
+    background-color: #575757;
+    border-radius: 25px;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: normal;
+    font-size: 1.65rem;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 2px 2px #000000;
+  }
+  
+  .modalButton:active {
+    color: black;
+  }
+
+  .popupInput {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    width: 80%;
+    border-radius: 50px;
+    font-family: "Manrope", sans-serif;
+    font-weight: lighter;
+    font-size: 1.75rem;
+    color: white;
+    background-color: #575757;
+    border-style: solid;
+    border-color: #7C7C7C;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    outline: none;
+  }
+
+  .submit {
+    background-color: white;
+    color: #3D3D3D;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    width: 90%;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  .submit:active {
+    color: black;
+  }
+
+  #centered {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  #centeredSign {
+    color: #1579FF;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+  }

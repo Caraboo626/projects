@@ -1,0 +1,278 @@
+/* TODO general spacing */
+
+body {
+  background-color: #3D3D3D;
+}
+
+.myButton {
+  color: white;
+  background-color: #575757;
+  border-radius: 25px;
+  border: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 1.65rem;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 2px 2px #000000;
+}
+
+
+/* TODO */
+.myButton:active {
+  color: black;
+}
+
+#searchDiv {
+  padding-top: 125px;
+}
+
+#search {
+  margin: auto;
+  display: block;
+  width: 60%;
+  border-radius: 50px;
+  border: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: lighter;
+  font-size: 2.25rem;
+  color: white;
+  background-color: #575757;
+  border-style: solid;
+  border-color: #7C7C7C;
+  border-width: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  outline: none;
+}
+
+#controls {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: lighter;
+  font-size: 1.65rem;
+  color: white;
+}
+
+#colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* TODO text should be placed with respect to the block above them, not margins */
+#codes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 210px;
+  margin-right: 210px;
+}
+
+#RBGcodes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+.individualCode {
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 1.65rem;
+  color: white;
+}
+
+#actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+#loggedActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 275px;
+  margin-right: 275px;
+}
+
+footer {
+  margin-top: 40px;
+  color: #575757;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+}
+
+/* TODO remove edges */
+.closeMenu {
+  background-color: white;
+  color: #3D3D3D;
+  border: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 2.25rem;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* TODO */
+.closeMenu:active {
+  color: black;
+}
+
+.dropbtn {
+  background-color: #616a67;
+  color: white;
+  padding: 12px;
+  font-size: 12px;
+  border: none;
+  border-radius: 25px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.Export-Dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.savedPalettesToExport {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.savedPalettesToExport a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.actions {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  
+}
+.myButton{
+  margin: 25px;
+}
+
+.abouttext {
+  color: #f1f1f1;
+  text-align: left;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  margin: 5px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.searchDiv {
+  margin-top: 0px;
+}
+
+/* Change color of dropdown links on hover */
+.savedPalettesToExport a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.Export-Dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.Export-Dropdown:hover .dropbtn {background-color: #505b50;}
+
+.clickableHeader {
+  width: 100%;
+  border: none;
+  color: #3D3D3D;
+  background-color: #EFEFEF;
+  text-align: center;
+  padding: 36px;
+  margin: 0px;
+  font-family: "Manrope", sans-serif;
+  font-weight: lighter;
+  font-size: 2.25rem;
+  transition: all 0.25s ease-in-out;
+}
+
+.clickableHeader:hover {
+  color: #575757;
+  background-color: #ffffff;
+  transition: all 0.25s ease-in-out;
+  font-size: 2.5rem;
+}
+
+.whiteButton {
+  color: #3D3D3D;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  border: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 1.65rem;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 2px 2px #000000;
+}
+
+.changeInfo {
+  color: #1579FF;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 1.65rem;
+  text-decoration: none;
+}
+
+.paletteName {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  padding-top: 32px;
+  padding-left: 128px;
+  margin-bottom: 0;
+}
+
+.savedColors {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+#login {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
